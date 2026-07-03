@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "vite",
-    "build": "vite build",
+    "build": "svelte-kit sync && vite build",
     "build:maps": "BUILD_SOURCEMAPS=true vite build",
     "preview": "vite preview",
     "test": "jest --config=jest.config.cjs",
